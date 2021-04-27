@@ -11,34 +11,70 @@ body {
 }
 #navBar h3 {
     position: fixed;
+    text-align: left;
     font-weight: 500;
+    color: #F4F4F4;
 }
-#navigation {
-    position: fixed;
-    left: 900px;
+#navigation  {
     font-family: 'Sora';
     color: #F4F4F4;
-    display: flex;
-    flex-direction: column;
-
+    width: 50%;
     align-items: center;
     justify-content: space-evenly;
 }
-#navigation p {
-    cursor: pointer;
+#navigation p4 { /* ABOUT*/
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
+    color: #F4F4F4;
+    position: fixed;
+    width: 85px;
+    height: 30px;
+    left: 1220px;
+    top: 60px;
+    font-size: 20px;
+}
+#navigation p5 { /*SKILLS*/
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #F4F4F4;
+    position: fixed;
+    width: 85px;
+    height: 30px;
+    left: 1220px;
+    top: 110px;
+    font-size: 20px;
+}
+#navigation p6 { /*WORK*/
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #F4F4F4;
+    position: fixed;
+    width: 85px;
+    height: 30px;
+    left: 1220px;
+    top: 155px;
+    font-size: 20px;
+}
+#navLine {
+    position: fixed;
+    width: 0px;
+    height: 117px;
+    left: 1317px;
+    top: 60px;
 }
 .icons {
     position: fixed;
-    flex-direction: column;
-    left: 1155px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 25%;
+    width: 40px;
+    height: 40px;
+    left: 1331px;
+    top: 45px;
+
 }
 .icons img {
-    margin: 6px;
+    margin: 2.5px;
     cursor: pointer;
 }
 .heroImg {
@@ -274,7 +310,7 @@ h3 {
     height: 418px;
     left: 291px;
     top: 2820px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 ---------*/
     filter: grayscale(100%);
 }
 h4 { /*Small Outline*/
@@ -282,4 +318,123 @@ h4 { /*Small Outline*/
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color:#F4F4F4;
     color: #151515;
+    font-size: 36px;
+    letter-spacing: 0.105em;
+}
+p4 { /*WorkText*/
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.smallVaycautious {
+    position: absolute;
+    width: 285px;
+    height: 42px;
+    left: 856px;
+    top: 2765px;
+}
+.vaycautiousText {
+    position: absolute;
+    width: 304px;
+    height: 107px;
+    left: 840px;
+    top: 2875px;
+    text-align: right;
+}
+.smallBvb {
+    position: absolute;
+    width: 246px;
+    height: 42px;
+    left: 295px;
+    top: 3447px;
+}
+.bvbText {
+    position: absolute;
+    width: 305px;
+    height: 114px;
+    left: 295px;
+    top: 3557px;
+    text-align: left;
+}
+.bvb {
+    position: absolute;
+    width: 524px;
+    height: 419px;
+    left: 625px;
+    top: 3500px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 ---------*/
+    filter: grayscale(100%);
+}
+.choosine {
+    position: absolute;
+    width: 520px;
+    height: 418px;
+    left: 295px;
+    top: 4186px;
+}
+.choosineimg {
+    position: absolute;
+    width: 520px;
+    height: 418px;
+    left: 295px;
+    top: 4186px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 ---------*/
+    filter: grayscale(100%);
+}
+.smallChoosine {
+    position: absolute;
+    width: 208px;
+    height: 42px;
+    left: 941px;
+    top: 4133px;
+}
+.choosineText {
+    position: absolute;
+    width: 304px;
+    height: 112px;
+    left: 845px;
+    top: 4243px;
+    text-align: right;
+}
+.smallBlue {
+    position: absolute;
+    width: 255px;  
+    height: 84px;
+    left: 295px;
+    top: 4814px;
+}
+.bluebonnetText {
+    position: absolute;
+    width: 300px;
+    height: 112px;
+    left: 295px;
+    top: 4977px;
+}
+.bbc {
+    position: absolute;
+    width: 524px;
+    height: 419px;
+    left: 625px;
+    top: 4866px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 ---------*/
+    filter: grayscale(100%);
+    padding-bottom: 180px;
+}
+p0 {
+position: absolute;
+width: 155px;
+height: 23px;
+left: 1042px;
+top: 5393px;
+font-family: Sora;
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 18px;
+letter-spacing: 0.04em;
+color: #FFFFFF
 }
