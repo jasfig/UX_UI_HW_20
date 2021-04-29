@@ -1,0 +1,122 @@
+html {
+    background-color: #151515!important;
+}
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+    color: #F4F4F4;
+    font-family: 'Roboto', sans-serif;
+    background-color: #151515;
+}
+#navBar h3 {
+    position: fixed;
+    text-align: left;
+    font-weight: 500;
+    color: #F4F4F4;
+    top: 60px ;
+}
+#navigation  {
+    font-family: 'Sora';
+    color: #F4F4F4;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#navigation p4 { /* ABOUT*/
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #F4F4F4;
+    position: fixed;
+    width: 85px;
+    height: 30px;
+    left: 1220px;
+    top: 60px;
+    font-size: 20px;
+}
+#navigation p5 { /*SKILLS*/
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #F4F4F4;
+    position: fixed;
+    width: 85px;
+    height: 30px;
+    left: 1220px;
+    top: 110px;
+    font-size: 20px;
+}
+#navigation p6 { /*WORK*/
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #F4F4F4;
+    position: fixed;
+    width: 85px;
+    height: 30px;
+    left: 1220px;
+    top: 155px;
+    font-size: 20px;
+}
+#navLine {
+    position: fixed;
+    width: 0px;
+    height: 117px;
+    left: 1317px;
+    top: 60px;
+}
+.icons {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    left: 1331px;
+    top: 55px;
+
+}
+.icons img {
+    margin: 2.5px;
+    cursor: pointer;
+}
+
+
+.jumbotron { /* Hero Styling*/
+    background-color:#151515!important;
+    display: block;
+    height: 600px;
+    height: calc(100vh - 25px);
+    padding: 10px;
+    text-align: center;
+    background-color:#151515;
+}
+.jumbotron h1 {
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color:#F4F4F4;
+    color: #151515;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0.12em;
+    background-color:#151515;
+}
+
+
+
+
+
+
+p0 { /*CopyRight*/
+position: absolute;
+width: 155px;
+height: 23px;
+left: 1042px;
+top: 5393px;
+font-family: Sora;
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 18px;
+letter-spacing: 0.04em;
+color: #FFFFFF
+}
