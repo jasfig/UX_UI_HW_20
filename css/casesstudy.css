@@ -254,3 +254,28 @@ p0 { /*CopyRight*/
     letter-spacing: 0.04em;
     color: #FFFFFF
 }
+
+/*preloader styling*/
+.preloader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #151515;
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .jasmine {
+    animation: jasmine 3s ease;
+    animation-fill-mode:forwards;
+  }
+  @keyframes jasmine {
+    from{
+      transform: translateY(0px);
+    }
+    to{
+      transform: translateY(20px);
+    }
+  }
