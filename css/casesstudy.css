@@ -140,9 +140,14 @@ div {
 h2 {
     font-family: roboto;
 }
-
+h6 {
+    color: #f4f4f4;
+    font-size: 16px;
+    font-family: 'Sora', sans-serif;
+}
 p {
     font-family: 'sora';
+    color: #F4F4F4;
 }
 #research { /*Research*/
     text-align: left;
@@ -228,11 +233,110 @@ p {
     justify-content: center;
     padding: 25px;
 }
-
-
-
-
-
+#synthesize {
+    text-align: left;
+    background-color: #151515!important;
+    grid-column-start: 1;
+    padding: 28px;
+    grid-column-end: 6;
+    margin-top: 30px;
+    color: #F4F4F4;
+    margin-right: 40px;
+}
+#empathize {
+    text-align: left;
+    background-color: #151515!important;
+    grid-column-start: 1;
+    padding: 28px;
+    grid-column-end: 6;
+    margin-top: 30px;
+    color: #F4F4F4;
+    margin-right: 40px;
+}
+li {
+    list-style-type: none;
+    font-family: 'Sora', sans-serif;
+    line-height: 1.6;
+    color: #F4F4F4;
+}
+ul {
+    margin-right: 20px;
+}
+#personaStats {
+    background-color: #AC7a08!important;
+    border: solid 3px;
+    border-color: #f4f4f4;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-right: 20px;
+    text-align: center;
+    grid-column-start: 5;
+}
+.persona {
+    display: grid;
+    grid-gap: 50px 16px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 5px;
+    margin-right: 200px;
+    margin-left: 250px;
+}
+#personaIMG {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    margin-left: 10px;
+}
+#traits {
+    grid-column-start:12;
+    grid-column-end: 13;
+    grid-row: 1/4;
+    margin-right: 80px;
+    margin-left: 40px;
+    padding: 19px;
+}
+#personaStats {
+   grid-column-start:4;
+   grid-column-end: 7;
+   margin-top: 20px;   
+   margin-left: 20px;
+}
+.diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#insight {
+    text-align: left;
+    background-color: #151515!important;
+    grid-column-start: 1;
+    padding: 28px;
+    grid-column-end: 6;
+    margin-top: 30px;
+    color: #F4F4F4;
+    margin-right: 40px;
+}
+.empathy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#scenario {
+    text-align: left;
+    background-color: #151515!important;
+    grid-column-start: 1;
+    padding: 28px;
+    grid-column-end: 6;
+    margin-top: 50px;
+    color: #F4F4F4;
+    margin-right: 40px;
+}
+.uxscenario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
 
 
 
@@ -245,7 +349,7 @@ p0 { /*CopyRight*/
     width: 155px;
     height: 23px;
     left: 1042px;
-    top: 5393px;
+    top: 8393px;
     font-family: Sora;
     font-style: normal;
     font-weight: 300;
