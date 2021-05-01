@@ -106,7 +106,6 @@ div {
     letter-spacing: 0.10em;
     background-color:#151515!important;
 }
-
 .projectOverview { /*Overview*/
     margin-top: 80px;
     display: grid;
@@ -166,7 +165,6 @@ p {
     font-size: 48px;
     color: #F4F4F4;
 }
-
 .col-lg {
     padding: 20px;
     margin: 10px;
@@ -182,7 +180,6 @@ p {
     margin-top: 30px;
     color: #F4F4F4;
 }
-
 .quote {
     text-align: center;
     font-style: italic;
@@ -337,19 +334,50 @@ ul {
     align-items: center;
     margin-top: 10px;
 }
-
-
-
-
-
-
-
+#ideation {
+    text-align: left;
+    background-color: #151515!important;
+    grid-column-start: 1;
+    padding: 28px;
+    grid-column-end: 6;
+    margin-top: 50px;
+    color: #F4F4F4;
+    margin-right: 40px;
+}
+.ideate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#competitor {
+    text-align: left;
+    background-color: #151515!important;
+    grid-column-start: 1;
+    padding: 28px;
+    grid-column-end: 6;
+    margin-top: 50px;
+    color: #F4F4F4;
+    margin-right: 40px;
+}
+.competitors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.competitors img {
+    width: 880px;
+    border: solid 3px;
+    border-color: #AC7a08;
+    border-radius: 2px;
+}
 p0 { /*CopyRight*/
     position: absolute;
     width: 155px;
     height: 23px;
     left: 1042px;
-    top: 8393px;
+    top: 9393px;
     font-family: Sora;
     font-style: normal;
     font-weight: 300;
@@ -358,7 +386,6 @@ p0 { /*CopyRight*/
     letter-spacing: 0.04em;
     color: #FFFFFF
 }
-
 /*preloader styling*/
 .preloader {
     position: fixed;
@@ -370,11 +397,11 @@ p0 { /*CopyRight*/
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
   .jasmine {
     animation: jasmine 3s ease;
     animation-fill-mode:forwards;
-  }
+}
   @keyframes jasmine {
     from{
       transform: translateY(0px);
@@ -382,4 +409,4 @@ p0 { /*CopyRight*/
     to{
       transform: translateY(20px);
     }
-  }
+}
